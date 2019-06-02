@@ -1,0 +1,19 @@
+{
+	"extends": "standard",
+	"env": {
+		"es6": true,
+		"jest": true,
+		"mocha": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2017
+	},
+	"rules": {
+		"comma-dangle": [
+			"warn",
+			"always-multiline"
+		],
+		"semi": 0
+	}
+}
